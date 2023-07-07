@@ -1,0 +1,11 @@
+input, p, h2 {
+  width: 30vw;
+  height: 5vh;
+}
+button {
+  width: 31vw;
+  height: 5vh;
+}
+* {
+  font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
