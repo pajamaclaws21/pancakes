@@ -1,6 +1,6 @@
 # pancakes
-Ai Fanfic App made by me using the Cohere AI API.
-The source code for pancakes can be found in the licens.e file.
+an Ai Fanfic App, made by me, using the Cohere AI API. <br>
+licensing information can be found in the licens.e file.
 
 ## how to get cohere api key
 so this is how to do it as of july 6th 2023
