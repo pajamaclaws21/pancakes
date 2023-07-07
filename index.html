@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>pancakes</title>
+  <meta name="author" content="pajamaclaws21">
+  <meta name="description" content="pancakes: an Ai Fanfic App by pajamaclaws21" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+
+<div id="intro">
+<h2>Ai FANFIC APP</h2>
+<p>
+	made by pajamaclaws21 utilizing the cohere ai api.
+</p>
+<div style="height: 3vh"></div>
+<input id="APIKEY" type="text" placeholder="Cohere API Key" />
+<div style="height: 3vh"></div>
+<button onclick="letsago()">continue</button>
+
+<div style="height: 3vh"></div>
+<small><small>
+	<p>
+		source code for this app can be found on my 
+		<a href="https://github.com/pajamaclaws21/pancakes/tree/main">github</a>.
+	</p>
+</small></small>
+</div>
+
+<div id="main" hidden>
+<input id="ficType" type="text" list="shipOptions" placeholder="gay"></input>
+<datalist id="shipOptions">
+	<option value="het">het</option>
+	<option value="slash">slash</option>
+	<option value="femslash">femslash</option>
+	<option value="straight">straight</option>
+	<option value="gay">gay</option>
+</datalist>
+<br>
+<input id="relType" type="text" placeholder="two boys, Name1 and Name2"></input>
+<br>
+<button onclick="genPrompt()">generate</button>
+<p id="text">
+Here's where the fanfic will appear!
+</p>
+</div>
+
+</body>
+</html>
