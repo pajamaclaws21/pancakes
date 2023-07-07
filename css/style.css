@@ -1,7 +1,8 @@
 * {
   font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
 }
 input, button {
-  width: 100vw;
+  width: 90vw;
   height: 5vh;
 }
