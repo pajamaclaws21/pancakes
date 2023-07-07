@@ -3,8 +3,8 @@ an Ai Fanfic App, made by me, using the Cohere AI API. <br>
 licensing information can be found in the licens.e file.
 
 # table of contents
-1. [how to get an api key](##how to get cohere api key)
-2. [stuff i want to add](##stuff i want)
+1. [how to get an api key](#how to get cohere api key)
+2. [stuff i want to add](#stuff i want)
 3. [advanced prompt info](#advanced-prompt-stuff)
 
 ## how to get cohere api key
@@ -22,7 +22,7 @@ so this is how to do it as of july 6th 2023
 so i'm working on adding a project and this stuff will all be there, but here's the gist:
 - looping tile background of pancakes (vector?)
 - a different font/more fonts
-- more detailed prompt customization (see [the current system](##advanced prompt stuff))
+- more detailed prompt customization (see [the current system](#advanced prompt stuff))
 
 ## advanced prompt stuff
 the prompt template this app uses is as follows: <br>
